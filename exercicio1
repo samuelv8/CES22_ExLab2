@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T21:23:44.661Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="hbInH-ekhXU12xEpbg69" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T21:27:10.596Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="5iC878CETd9wFBQdBL-B" version="14.7.6" type="github">
   <diagram id="ipSnCm94OpaYNzQriNfT" name="Page-1">
-    <mxGraphModel dx="1115" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,7 +156,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YI_CEaanHUYNDFFAtgr5-69" value="return super::get_ingredients() + &#39;, &#39; + base_ingredients;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=10;verticalAlign=middle;align=left;fillColor=#E6E6E6;spacingLeft=5;strokeColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="10" y="580" width="310" height="30" as="geometry" />
+          <mxGeometry x="10" y="590" width="310" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YI_CEaanHUYNDFFAtgr5-71" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Pizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ base_cost: float&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ base_ingredients&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_ingredients()&lt;br&gt;+ get_price()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="345" y="140" width="160" height="120" as="geometry" />
@@ -218,7 +218,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YI_CEaanHUYNDFFAtgr5-84" value="return super::get_price() + base_cost;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=10;verticalAlign=middle;align=left;fillColor=#E6E6E6;spacingLeft=5;strokeColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="91" y="620" width="230" height="30" as="geometry" />
+          <mxGeometry x="91" y="620" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YI_CEaanHUYNDFFAtgr5-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=108.99999999999999;exitDy=10;exitPerimeter=0;entryX=-0.01;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=none;startFill=0;endArrow=none;endFill=0;startSize=10;endSize=10;strokeColor=#B3B3B3;" edge="1" parent="1" source="YI_CEaanHUYNDFFAtgr5-85" target="YI_CEaanHUYNDFFAtgr5-72">
           <mxGeometry relative="1" as="geometry" />
@@ -231,6 +231,12 @@
         </mxCell>
         <mxCell id="YI_CEaanHUYNDFFAtgr5-86" value="base_ingredients = &#39;tomate&#39;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=10;verticalAlign=middle;align=left;fillColor=#E6E6E6;spacingLeft=5;strokeColor=#999999;" vertex="1" parent="1">
           <mxGeometry x="130" y="550" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YI_CEaanHUYNDFFAtgr5-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.018;entryY=0.878;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;startSize=10;endSize=10;dashed=1;strokeColor=#B3B3B3;" edge="1" parent="1" source="YI_CEaanHUYNDFFAtgr5-95" target="YI_CEaanHUYNDFFAtgr5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YI_CEaanHUYNDFFAtgr5-95" value="return p.get_price();&amp;nbsp;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=10;verticalAlign=middle;align=left;fillColor=#E6E6E6;spacingLeft=5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="840" y="460" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
