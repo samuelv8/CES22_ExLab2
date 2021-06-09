@@ -79,3 +79,5 @@ if __name__ == '__main__':
             print('Running next order...\n')
         except IndexError:
             break
+    print('Oh, no more orders! :)')    
+         
